@@ -9,13 +9,17 @@
 ## הסבר ה-5 רכיבים
 
 ### M — Model
-איזה מודל וידאו של Higgsfield. בחירה משפיעה על הסגנון:
-- `seedance_2_0` — UGC עם lip-sync טבעי, ספיש + תמונה במעבר אחד
-- `kling_3_0` — motion control גבוה, frame-by-frame, action sequences
-- `veo_3_1` — קולנועי איכותי, צבע עשיר
-- `sora_2` — ריאליזם, 12 שניות, 1080p
-- `cinema_studio_3_5` — מובנה עם MCSLA built-in
-- `soul_cinema_studio` — Soul ID + Cinema Studio = דמות עקבית קולנועית
+
+**ברירת המחדל**: `kling_3_0`. מודלים אחרים — רק באישור מפורש של המשתמש.
+
+- `kling_3_0` ← *ברירת מחדל*. Motion control גבוה, frame-by-frame, עד 15 שניות.
+- `soul_cinema_studio` — מותר אם יש Soul ID של presenter (זה לא Cinema Studio רגיל אלא Soul-locked).
+
+**דורשים אישור מפורש לפני שימוש**:
+- `seedance_2_0` — אם רוצים lip-sync דיבור native (יותר חזק כשהקריינות והוידאו מאותו מקור)
+- `veo_3_1` — לקולנועי איכותי
+- `sora_2` — לריאליזם, 12 שניות
+- `cinema_studio_3_5` — MCSLA built-in
 
 ### C — Camera
 תנועת המצלמה והגדרות:
@@ -52,27 +56,31 @@
 ## מתכון 1: UGC presenter עם מוצר
 
 ```
-M: seedance_2_0
+M: kling_3_0
 C: handheld eye-level, slight shake, natural feel
 S: <Soul ID> מחזיק את <מוצר>, פרזנטר אינסטה
 L: תאורת חלון רכה משמאל, צבעים חמים, אסתטיקת אינסטה
 A: מסתכל למצלמה, מציג את המוצר, מסתובב 90°, חיוך
-Voiceover: <סקריפט עברית 30s>
+Voiceover (חיצוני, ElevenLabs): <סקריפט עברית 30s, מורכב בעריכה>
 Duration: 15s
 ```
+
+> **הערה**: אין lip-sync ב-kling_3_0. הוידאו דמום או עם cap לא-דיברתי. הקריינות מורכבת בעריכה (CapCut). אם רוצים lip-sync native — לבקש אישור לעבור ל-`seedance_2_0`.
 
 ---
 
 ## מתכון 2: Cinematic product showcase
 
 ```
-M: veo_3_1 או cinema_studio_3_5
+M: kling_3_0
 C: dolly-in slow, eye-level, smooth
 S: <מוצר> על משטח רפלקטיבי, רקע נקי
 L: תאורה דרמטית, מקור אור עליון, צללים עמוקים, מעבר מחם לקריר
 A: סיבוב 360° של המוצר תוך כדי dolly-in, light flare ב-2 השניות האחרונות
 Duration: 8s
 ```
+
+> אם רוצים את האיכות הקולנועית של Veo 3.1 — לבקש אישור.
 
 ---
 
@@ -105,14 +113,16 @@ Duration: 6s
 ## מתכון 5: Soul ID — talking head
 
 ```
-M: soul_cinema_studio
+M: kling_3_0 + soul reference_id (chained)
 C: static medium close-up, slight push-in (4%)
 S: <Soul reference_id>, יושב על כיסא, רקע מטושטש
 L: תאורת window key + soft fill, צבעים נטרליים, look UGC professional
-A: מסתכל למצלמה, מדבר טבעי, מחוות יד מינימליות, breaks eye contact ב-frame 5
-Voiceover: <סקריפט>
+A: מסתכל למצלמה, מחוות פנים מינימליות, breaks eye contact ב-frame 5
+Voiceover (חיצוני): <סקריפט בעברית, מורכב בעריכה>
 Duration: 10s
 ```
+
+> אם רוצים lip-sync אמיתי בעברית במקום voiceover על וידאו דמום — לבקש אישור לעבור ל-`seedance_2_0` או `soul_cinema_studio`.
 
 ---
 

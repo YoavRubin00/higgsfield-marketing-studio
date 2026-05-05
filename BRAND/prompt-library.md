@@ -105,26 +105,33 @@ casual outfit, slight motion blur, authentic Instagram aesthetic.
 
 ### דוגמה — Talking head מציג טיפ פיננסי
 ```
-M: soul_cinema_studio (אם יש Soul ID)
-   או seedance_2_0 (avatar מהגלריה)
+M: kling_3_0  ← ברירת מחדל
+   (chained עם Soul reference_id אם יש Soul ID)
 C: medium close-up, subtle push-in 4%, eye-level
 S: presenter casual ב-30+, smartwatch ביד, חולצת cotton פשוטה
 L: תאורת window key + soft fill, צבעים נטרליים, מרגיש
    "מקצועי אבל לא מסחרי"
-A: מסתכל למצלמה, מדבר טבעי, מחוות יד מינימליות,
-   חיוך קל בסוף
-Voiceover: <עברית סקריפט 8-12 שניות, Liam voice>
+A: מסתכל למצלמה, מחוות פנים טבעיות (ב-kling אין lip-sync —
+   הוידאו "דמום"), מחוות יד מינימליות, חיוך קל בסוף
+Voiceover: ElevenLabs Liam (TX3LPaxmHKxFdv7V0QHJ),
+           track חיצוני, מורכב ב-CapCut
+Captions: בעברית, on-screen, נוספים ב-CapCut (לא ב-Higgsfield)
 Duration: 10s
 ```
 
+> **מקרה לאישור**: אם רוצים lip-sync אמיתי בעברית (פנים שמדברות בסנכרון) — לבקש אישור מפורש לעבור ל-`seedance_2_0`.
+
 ### דוגמה — App showcase (UI on mobile)
 ```
-M: kling_3_0
+M: kling_3_0  ← ברירת מחדל
 C: locked top-down, יד מחזיקה טלפון
 S: יד צעירה, גוון עור טבעי, האפליקציה FinPlay על המסך
+   (UI מוקאפ — לא לבקש מהמודל לרנדר את ה-UI הספציפי, להעלות screenshot
+   כ-reference)
 L: תאורת חלון רכה, שולחן עץ ברקע, קצת bokeh
-A: גלילה אטית במסך, תקריב על XP counter שעולה,
+A: גלילה אטית במסך, תקריב על אזור עם תנועה,
    חיוך מתחת לפריים
+Captions/UI text: לא ב-Higgsfield — מורכב ב-CapCut
 Duration: 6s
 ```
 

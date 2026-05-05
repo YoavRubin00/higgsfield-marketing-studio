@@ -66,21 +66,33 @@
 ## Higgsfield Stack — קונפיג של ultimate plan
 
 ### מודלים שצריך להכיר
-- **Soul V2** — דמות עקבית (אחרי `higgsfield-soul-id`). הכי טוב ל-talking head.
-- **Seedance 2.0** — UGC עם lip-sync טבעי, ספיש + תמונה במעבר אחד.
-- **Kling 3.0** — motion control, frame-by-frame. ל-action sequences.
-- **Veo 3.1** — קולנועי, איכות גבוהה. ליריות יוקרתיות.
-- **Sora 2** — וידאו 12 שניות 1080p, ריאליסטי.
-- **Cinema Studio 3.5** — שימוש בנוסחת MCSLA לסצנות מובנות.
-- **Nano Banana 2** — תמונות 4K זריזות.
-- **GPT Image 2** — טקסט בתמונה (חשוב למוטיב עם כיתובים).
+
+**ברירת המחדל לכל וידאו**: `kling_3_0`. שימוש בכל מודל וידאו אחר דורש **אישור מפורש מהמשתמש**.
+
+- **Kling 3.0** ← *ברירת מחדל לכל וידאו*. Motion control, frame-by-frame consistency, עד 15 שניות.
+- **Soul V2** — דמות עקבית (אחרי `higgsfield-soul-id`). תמונות + וידאו עם identity-faithful.
+- **Nano Banana 2** — תמונות 4K זריזות (ברירת מחדל לתמונות סטנדרטיות).
+- **GPT Image 2** — טקסט בתמונה (אם צריך טקסט מובנה — אבל בדרך כלל overlay-יים בעריכה).
 - **Flux 2** — יצירה מבוססת reasoning.
+
+**מודלים שצריכים אישור מפורש לפני שימוש** (לא ברירת מחדל):
+- **Seedance 2.0** — lip-sync native (שימושי כשרוצים דיבור מסונכרן בלי קריינות חיצונית). לאשר לפני.
+- **Veo 3.1** — קולנועי איכותי. לאשר לפני.
+- **Sora 2** — 12 שניות 1080p, ריאליסטי. לאשר לפני.
+- **Cinema Studio 3.5** — מובנה עם MCSLA. לאשר לפני.
 
 ### גבולות ידועים
 - **וידאו: 12-15 שניות מקסימום** — לתוכן ארוך יותר, צריך לרכב כמה שוטים.
 - **אין פרסום native לרשתות** — צריך ידני / Playwright / Buffer.
 - **קרדיטים: 0** ⚠️ — לפני generation, **לטעון קרדיטים**.
 - **אין editing native** — לרכבת וידאו צריך CapCut/Descript.
+
+### חוקי ברזל לוידאו (system rules — לא משנים בלי אישור)
+1. **ברירת מחדל לוידאו**: `kling_3_0`. כל מודל אחר (Seedance/Veo/Sora) — דורש אישור מפורש.
+2. **קריינות תמיד 17 שניות** — ~40-50 מילים בעברית, גם בסרטון 30 ש'. שאר הזמן: visuals/B-roll/מוזיקה.
+3. **אין טקסט/כותרות בסרטוני Higgsfield** — כל caption נוסף ב-CapCut, לא מהמודל.
+4. **אין לוגו FinPlay (או כל מותג) בסרטון** — הדמות היא המותג.
+5. **תיעוד חובה**: כל generation נרשם ב-Google Sheet `1Jr3tc-FE1...` דרך `gws` CLI.
 
 ### Marketing Studio modes
 - **UGC**: talking heads, product reviews, unboxings, virtual try-ons

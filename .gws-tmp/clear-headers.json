@@ -1,0 +1,10 @@
+{
+  "requests": [
+    {"updateCells": {"range": {"sheetId": 1, "startRowIndex": 0, "endRowIndex": 1, "startColumnIndex": 0, "endColumnIndex": 13}, "fields": "userEnteredValue,userEnteredFormat"}},
+    {"updateCells": {"range": {"sheetId": 2, "startRowIndex": 0, "endRowIndex": 1, "startColumnIndex": 0, "endColumnIndex": 8}, "fields": "userEnteredValue,userEnteredFormat"}},
+    {"updateCells": {"range": {"sheetId": 3, "startRowIndex": 0, "endRowIndex": 1, "startColumnIndex": 0, "endColumnIndex": 11}, "fields": "userEnteredValue,userEnteredFormat"}},
+    {"updateSheetProperties": {"properties": {"sheetId": 1, "gridProperties": {"frozenRowCount": 0}}, "fields": "gridProperties.frozenRowCount"}},
+    {"updateSheetProperties": {"properties": {"sheetId": 2, "gridProperties": {"frozenRowCount": 0}}, "fields": "gridProperties.frozenRowCount"}},
+    {"updateSheetProperties": {"properties": {"sheetId": 3, "gridProperties": {"frozenRowCount": 0}}, "fields": "gridProperties.frozenRowCount"}}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "requests": [
+    {"repeatCell": {"range": {"sheetId": 1, "startRowIndex": 0, "endRowIndex": 1}, "cell": {"userEnteredFormat": {"backgroundColor": {"red": 0.17, "green": 0.24, "blue": 0.31}, "textFormat": {"foregroundColor": {"red": 1, "green": 1, "blue": 1}, "bold": true, "fontSize": 11}, "horizontalAlignment": "CENTER", "verticalAlignment": "MIDDLE"}}, "fields": "userEnteredFormat(backgroundColor,textFormat,horizontalAlignment,verticalAlignment)"}},
+    {"repeatCell": {"range": {"sheetId": 2, "startRowIndex": 0, "endRowIndex": 1}, "cell": {"userEnteredFormat": {"backgroundColor": {"red": 0.17, "green": 0.24, "blue": 0.31}, "textFormat": {"foregroundColor": {"red": 1, "green": 1, "blue": 1}, "bold": true, "fontSize": 11}, "horizontalAlignment": "CENTER", "verticalAlignment": "MIDDLE"}}, "fields": "userEnteredFormat(backgroundColor,textFormat,horizontalAlignment,verticalAlignment)"}},
+    {"repeatCell": {"range": {"sheetId": 3, "startRowIndex": 0, "endRowIndex": 1}, "cell": {"userEnteredFormat": {"backgroundColor": {"red": 0.17, "green": 0.24, "blue": 0.31}, "textFormat": {"foregroundColor": {"red": 1, "green": 1, "blue": 1}, "bold": true, "fontSize": 11}, "horizontalAlignment": "CENTER", "verticalAlignment": "MIDDLE"}}, "fields": "userEnteredFormat(backgroundColor,textFormat,horizontalAlignment,verticalAlignment)"}},
+    {"updateSheetProperties": {"properties": {"sheetId": 1, "gridProperties": {"frozenRowCount": 1}}, "fields": "gridProperties.frozenRowCount"}},
+    {"updateSheetProperties": {"properties": {"sheetId": 2, "gridProperties": {"frozenRowCount": 1}}, "fields": "gridProperties.frozenRowCount"}},
+    {"updateSheetProperties": {"properties": {"sheetId": 3, "gridProperties": {"frozenRowCount": 1}}, "fields": "gridProperties.frozenRowCount"}},
+    {"autoResizeDimensions": {"dimensions": {"sheetId": 1, "dimension": "COLUMNS", "startIndex": 0, "endIndex": 13}}},
+    {"autoResizeDimensions": {"dimensions": {"sheetId": 2, "dimension": "COLUMNS", "startIndex": 0, "endIndex": 8}}},
+    {"autoResizeDimensions": {"dimensions": {"sheetId": 3, "dimension": "COLUMNS", "startIndex": 0, "endIndex": 11}}}
+  ]
+}

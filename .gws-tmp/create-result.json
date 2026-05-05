@@ -1,9 +1,180 @@
 Using keyring backend: keyring
 {
-  "error": {
-    "code": 403,
-    "message": "Google Sheets API has not been used in project fast-banner-495421-b2 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/sheets.googleapis.com/overview?project=fast-banner-495421-b2 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
-    "reason": "unknown"
-  }
+  "properties": {
+    "autoRecalc": "ON_CHANGE",
+    "defaultFormat": {
+      "backgroundColor": {
+        "blue": 1,
+        "green": 1,
+        "red": 1
+      },
+      "backgroundColorStyle": {
+        "rgbColor": {
+          "blue": 1,
+          "green": 1,
+          "red": 1
+        }
+      },
+      "padding": {
+        "bottom": 2,
+        "left": 3,
+        "right": 3,
+        "top": 2
+      },
+      "textFormat": {
+        "bold": false,
+        "fontFamily": "arial,sans,sans-serif",
+        "fontSize": 10,
+        "foregroundColor": {},
+        "foregroundColorStyle": {
+          "rgbColor": {}
+        },
+        "italic": false,
+        "strikethrough": false,
+        "underline": false
+      },
+      "verticalAlignment": "BOTTOM",
+      "wrapStrategy": "OVERFLOW_CELL"
+    },
+    "locale": "iw_IL",
+    "spreadsheetTheme": {
+      "primaryFontFamily": "Arial",
+      "themeColors": [
+        {
+          "color": {
+            "rgbColor": {}
+          },
+          "colorType": "TEXT"
+        },
+        {
+          "color": {
+            "rgbColor": {
+              "blue": 1,
+              "green": 1,
+              "red": 1
+            }
+          },
+          "colorType": "BACKGROUND"
+        },
+        {
+          "color": {
+            "rgbColor": {
+              "blue": 0.95686275,
+              "green": 0.52156866,
+              "red": 0.25882354
+            }
+          },
+          "colorType": "ACCENT1"
+        },
+        {
+          "color": {
+            "rgbColor": {
+              "blue": 0.20784314,
+              "green": 0.2627451,
+              "red": 0.91764706
+            }
+          },
+          "colorType": "ACCENT2"
+        },
+        {
+          "color": {
+            "rgbColor": {
+              "blue": 0.015686275,
+              "green": 0.7372549,
+              "red": 0.9843137
+            }
+          },
+          "colorType": "ACCENT3"
+        },
+        {
+          "color": {
+            "rgbColor": {
+              "blue": 0.3254902,
+              "green": 0.65882355,
+              "red": 0.20392157
+            }
+          },
+          "colorType": "ACCENT4"
+        },
+        {
+          "color": {
+            "rgbColor": {
+              "blue": 0.003921569,
+              "green": 0.42745098,
+              "red": 1
+            }
+          },
+          "colorType": "ACCENT5"
+        },
+        {
+          "color": {
+            "rgbColor": {
+              "blue": 0.7764706,
+              "green": 0.7411765,
+              "red": 0.27450982
+            }
+          },
+          "colorType": "ACCENT6"
+        },
+        {
+          "color": {
+            "rgbColor": {
+              "blue": 0.8,
+              "green": 0.33333334,
+              "red": 0.06666667
+            }
+          },
+          "colorType": "LINK"
+        }
+      ]
+    },
+    "timeZone": "Asia/Jerusalem",
+    "title": "Higgsfield Marketing Studio - Content Tracker"
+  },
+  "sheets": [
+    {
+      "properties": {
+        "gridProperties": {
+          "columnCount": 26,
+          "frozenRowCount": 1,
+          "rowCount": 1000
+        },
+        "index": 0,
+        "rightToLeft": true,
+        "sheetId": 1,
+        "sheetType": "GRID",
+        "title": "תכנים שיוצרו"
+      }
+    },
+    {
+      "properties": {
+        "gridProperties": {
+          "columnCount": 26,
+          "frozenRowCount": 1,
+          "rowCount": 1000
+        },
+        "index": 1,
+        "rightToLeft": true,
+        "sheetId": 2,
+        "sheetType": "GRID",
+        "title": "פוסטים"
+      }
+    },
+    {
+      "properties": {
+        "gridProperties": {
+          "columnCount": 26,
+          "frozenRowCount": 1,
+          "rowCount": 1000
+        },
+        "index": 2,
+        "rightToLeft": true,
+        "sheetId": 3,
+        "sheetType": "GRID",
+        "title": "ביצועים"
+      }
+    }
+  ],
+  "spreadsheetId": "1Jr3tc-FE1ivTCAoMJ3hshmXAp1i8oA8SUz3UTvOsQCs",
+  "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1Jr3tc-FE1ivTCAoMJ3hshmXAp1i8oA8SUz3UTvOsQCs/edit"
 }
-error[api]: Google Sheets API has not been used in project fast-banner-495421-b2 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/sheets.googleapis.com/overview?project=fast-banner-495421-b2 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.

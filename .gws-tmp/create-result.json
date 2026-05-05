@@ -1,0 +1,9 @@
+Using keyring backend: keyring
+{
+  "error": {
+    "code": 403,
+    "message": "Google Sheets API has not been used in project fast-banner-495421-b2 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/sheets.googleapis.com/overview?project=fast-banner-495421-b2 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
+    "reason": "unknown"
+  }
+}
+error[api]: Google Sheets API has not been used in project fast-banner-495421-b2 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/sheets.googleapis.com/overview?project=fast-banner-495421-b2 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.

@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "title": "Higgsfield Marketing Studio - Content Tracker",
+    "locale": "he_IL",
+    "timeZone": "Asia/Jerusalem"
+  },
+  "sheets": [
+    {
+      "properties": {
+        "sheetId": 1,
+        "title": "תכנים שיוצרו",
+        "rightToLeft": true,
+        "gridProperties": {"frozenRowCount": 1}
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 2,
+        "title": "פוסטים",
+        "rightToLeft": true,
+        "gridProperties": {"frozenRowCount": 1}
+      }
+    },
+    {
+      "properties": {
+        "sheetId": 3,
+        "title": "ביצועים",
+        "rightToLeft": true,
+        "gridProperties": {"frozenRowCount": 1}
+      }
+    }
+  ]
+}

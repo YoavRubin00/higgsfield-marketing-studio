@@ -4,6 +4,20 @@
 
 ---
 
+## ⚡ משימה פעילה (2026-05-08)
+
+**Captain Shark — Savings Transformation Reel**
+
+כל ה-prep מוכן ב-[CONTENT/2026-05/2026-05-08_savings-transformation/](CONTENT/2026-05/2026-05-08_savings-transformation/). הסשן הקודם הכין הכל אבל ה-Higgsfield MCP לא היה מותקן. עכשיו הותקן.
+
+**להמשיך לפי**: [CONTENT/2026-05/2026-05-08_savings-transformation/RESUME.md](CONTENT/2026-05/2026-05-08_savings-transformation/RESUME.md) — שלבים 0-6.
+
+**להתחיל מ**: `mcp__higgsfield__balance` (שלב 0). לא לג'נרט בלי שהמשתמש אישר את ה-keyframes (שלב 2 — consistency check).
+
+> כשהסרטון יוצא והמשתמש אישר — למחוק את הסעיף הזה.
+
+---
+
 ## מי המשתמש
 
 **יואב רובין** (yrubin00@gmail.com). בונה מותג עצמאי משלו עם פוקוס ב**תוכן לרשתות חברתיות + פרסומות וידאו / UGC** באמצעות Higgsfield AI.

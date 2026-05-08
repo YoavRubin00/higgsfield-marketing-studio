@@ -5,11 +5,11 @@
 
 ---
 
-## חודש נוכחי: <YYYY-MM>
+## חודש נוכחי: 2026-05
 
 | תאריך | פלטפורמה | פורמט | נושא | סטטוס | קישור לתיקייה |
 |---|---|---|---|---|---|
-| YYYY-MM-DD | Instagram | Reel | <נושא> | רעיון / בכתיבה / בייצור / מוכן / פורסם | `<תיקייה>/` |
+| 2026-05-08 | TikTok + Reels + Shorts | Reel 12s | Captain Shark — Savings Transformation (פארודיית כושר) | בכתיבה (prep מוכן, ממתין ל-generation) | [2026-05-08_savings-transformation/](2026-05/2026-05-08_savings-transformation/) |
 | | | | | | |
 | | | | | | |
 
